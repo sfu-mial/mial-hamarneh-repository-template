@@ -63,6 +63,7 @@ To run the tests ensuring the installation is valid, please run
 python -m mymodule.testmycode
 ```
 Which should result in
+
 ![](images/test.png)
 
 <a name="usage"></a>
