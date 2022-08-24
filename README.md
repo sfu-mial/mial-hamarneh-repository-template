@@ -10,7 +10,7 @@ Short description of
 ![](images/motivation.png)
 
 ## Status
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/bencardoen/SubPrecisionContactDetection.jl/tree/main.svg?style=svg&circle-token=d2c0a7c1eee273587c424008dc38e74692253787)](FIXME) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 ## Installation
 ### Local
 ```bash
@@ -35,6 +35,13 @@ sudo singularity build container/singularityrecipe.def
 ```bash
 singularity pull repo:image.version
 ```
+## Test
+To run the tests ensuring the installation is valid, please run
+```
+python mysoftware/modulextest.py
+```
+
+
 
 ## Usage
 ### Example snippets
