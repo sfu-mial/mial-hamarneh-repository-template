@@ -1,0 +1,38 @@
+BootStrap: docker
+From: fedora:35
+
+%files
+    # Add local files you need/want to include
+
+%post
+    dnf install -y wget unzip python3 g++
+    dnf groupinstall -y 'Development Tools'
+
+    ## Setup your code
+    cd /opt
+    git clone <thisrepo>
+    cd thisrepo
+    # Build instructions
+
+    ## Cleanup
+    dnf remove -y wget unzip
+
+%environment
+    export LC_ALL=C
+
+%runscript
+    echo "Container was created $NOW"
+    echo "Arguments received: $*"
+    echo pwd
+    python run.py "$@"
+
+
+%labels
+    Author you@domain.country
+    Version v0.0.1
+
+%help
+    Usage (interactively):
+    singularity shell image.sif
+    or
+    singularity exec image.sif <code>
