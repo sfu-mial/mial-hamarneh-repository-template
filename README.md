@@ -14,8 +14,8 @@ Short description of
 
 ## Table of contents
 1. [Installation](#install)
-2. [Test](#usage)
-3. [Usage](#hpc)
+2. [Test](#test)
+3. [Usage](#usage)
 4. [Cite](#cite)
 5. [Reproducing results](#repro)
    1. [Datasets](#data)
@@ -138,5 +138,13 @@ Processing scripts ideally are separate from the modules
 Instructions on how to create packages/containers:
 
 [PIP](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
 [Conda](https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html)
+
 [Singularity](https://singularity-docs.readthedocs.io/en/latest/)
+
+[Travis](https://www.travis-ci.com/)
+
+[CircleCI](https://circleci.com/)
+
+[CodeCov](https://about.codecov.io/)
