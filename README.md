@@ -11,23 +11,30 @@ Short description of
 
 ## Status
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/bencardoen/SubPrecisionContactDetection.jl/tree/main.svg?style=svg&circle-token=d2c0a7c1eee273587c424008dc38e74692253787)](FIXME) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-## Installation
-### Local
+##
+### Installation
+#### Local
 ```bash
 git clone <thisrepo>
 # build instructions
 ```
-#### Pip
+
+##### Pip
 ```bash
 pip install mysoftware
 ```
-#### Conda
+
+##### Conda
 ```bash
 conda install mysoftware
 ```
-### Container
-#### Singularity
-##### Building from recipes
+or using the environment
+```bash
+conda env create --name myproject --file=myproject.yml
+```
+#### Container
+##### Singularity
+###### Building from recipes
 ```bash
 sudo singularity build container/singularityrecipe.def
 ```
@@ -38,10 +45,10 @@ singularity pull repo:image.version
 ## Test
 To run the tests ensuring the installation is valid, please run
 ```
-python mysoftware/modulextest.py
+python -m mymodule.testmycode
 ```
-
-
+Which should result in
+![](images/test.png)
 
 ## Usage
 ### Example snippets
