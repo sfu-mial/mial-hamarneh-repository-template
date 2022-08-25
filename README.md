@@ -94,7 +94,12 @@ See [docs](docs/docs.pdf) for the complete API documentation
 <a name="cite"></a>
 ## Cite
 ```bibtext
-[your citation here]
+@article{you2023,
+  title={yourtitle},
+  author={authors et al},
+  year={2023},
+  publisher={venue}
+}
 ```
 
 <a name="repro"></a>
