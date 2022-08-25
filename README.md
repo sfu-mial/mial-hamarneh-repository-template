@@ -1,5 +1,5 @@
 # mysoftware
-This is the software repository for our [paper](#cite) solving problem x in a novel way.
+This is the software repository for [our](https://www.medicalimageanalysis.com/) [paper](#cite) solving problem x in a novel way.
 
 ## Motivation
 
