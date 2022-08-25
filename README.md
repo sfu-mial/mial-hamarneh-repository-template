@@ -1,12 +1,15 @@
 # mysoftware
+This is the software repository for our [paper](#cite) solving problem x in a novel way.
 
 ## Motivation
 
-Short description of
+Short description of 
 - problem in field (e.g. cancer)
 - what is current solution (handdrawn segmentation)
 - what this software does to solve it (sota segmentation)
 - proposed impact (accelerated/accurate diagnosis)
+Similar to abstract of the paper
+
 ![](images/motivation.png)
 
 ## Status
