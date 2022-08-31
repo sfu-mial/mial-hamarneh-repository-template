@@ -1,5 +1,14 @@
 # mysoftware
 
+## Repository layout (what do I find where?)
+```
+|- container   # OCI recipes
+|- mymodule    # source code for this software module
+|- images
+|- notes       # Project organization, paper LaTex, related work, proposal, meeting notes
+|- scripts     # processing scripts, standalone CLI
+```
+
 ## Motivation
 
 Short description of
