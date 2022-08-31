@@ -1,4 +1,5 @@
 # mysoftware
+This is the software repository for [our](https://www.medicalimageanalysis.com/) [paper](#cite) solving problem x in a novel way.
 
 ## Repository layout (what do I find where?)
 ```
@@ -11,11 +12,13 @@
 
 ## Motivation
 
-Short description of
+Short description of 
 - problem in field (e.g. cancer)
 - what is current solution (handdrawn segmentation)
 - what this software does to solve it (sota segmentation)
 - proposed impact (accelerated/accurate diagnosis)
+Similar to abstract of the paper
+
 ![](images/motivation.png)
 
 ## Status
@@ -100,7 +103,12 @@ See [docs](docs/docs.pdf) for the complete API documentation
 <a name="cite"></a>
 ## Cite
 ```bibtext
-[your citation here]
+@article{you2023,
+  title={yourtitle},
+  author={authors et al},
+  year={2023},
+  publisher={venue}
+}
 ```
 
 <a name="repro"></a>
